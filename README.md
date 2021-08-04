@@ -18,6 +18,10 @@ Community Discord server.
 #### How can I get involved with this project?
 
 Join the [discord Server](https://discord.gg/UVBjy5SB45) and ping saminacodes#2918
+
+#### Can I use this bot in my own discord server?
+
+We currently do not support a way to integrate the bots into other servers. This may change in the future.
   
 ## Documentation
 
