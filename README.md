@@ -10,9 +10,8 @@ Community Discord server.
 
 **Client:** unknown
 
-**Server:** unknown
+**Server:** Node
 
-  
 ## FAQ
 
 #### How can I get involved with this project?
@@ -21,7 +20,7 @@ Join the [discord Server](https://discord.gg/UVBjy5SB45) and ping saminacodes#29
 
 #### Can I use this bot in my own discord server?
 
-We currently do not support a way to integrate the bots into other servers. This may change in the future.
+We currently do not support a way to integrate this bot into other servers.
   
 ## Documentation
 
@@ -46,8 +45,7 @@ Please adhere to this project's `code of conduct`.
   
 ## Roadmap
 
-
-
+MVP - December 2021
   
 ## Developers
 
