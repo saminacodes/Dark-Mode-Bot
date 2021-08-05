@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint ./ && markdownlint ./",
     "pre-commit": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install && rimraf .git/hooks && symlink-dir .husky .git/hooks"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,9 @@
     "eslint-plugin-promise": "^5.1.0",
     "husky": "^7.0.1",
     "lint-staged": "^11.1.1",
-    "markdownlint-cli": "^0.28.1"
+    "markdownlint-cli": "^0.28.1",
+    "rimraf": "^3.0.2",
+    "symlink-dir": "^5.0.1"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
