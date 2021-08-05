@@ -1,0 +1,19 @@
+{
+  "name": "dark-mode-bot",
+  "version": "1.0.0",
+  "description": "A custom discord bot created for the Dark Mode Developer's Community Discord server. ## Features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copleykj/Dark-Mode-Bot.git"
+  },
+  "author": "Dark Mode Developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/copleykj/Dark-Mode-Bot/issues"
+  },
+  "homepage": "https://github.com/copleykj/Dark-Mode-Bot#readme"
+}
