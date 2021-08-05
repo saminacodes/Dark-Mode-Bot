@@ -16,7 +16,7 @@ Community Discord server.
 
 #### How can I get involved with this project?
 
-Join the [discord Server](https://discord.gg/UVBjy5SB45) and ping saminacodes#2918
+Join the [discord server](https://discord.gg/UVBjy5SB45) and ping saminacodes#2918 or copleykj#4101
 
 #### Can I use this bot in my own discord server?
 
