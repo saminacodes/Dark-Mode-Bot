@@ -2,8 +2,10 @@
   "name": "dark-mode-bot",
   "version": "1.0.0",
   "description": "A custom discord bot created for the Dark Mode Developer's Community Discord server. ## Features",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
     "lint": "eslint ./ && markdownlint ./",
     "pre-commit": "lint-staged",
     "prepare": "husky install && rimraf .git/hooks && symlink-dir .husky .git/hooks"
@@ -30,7 +32,8 @@
     "lint-staged": "^11.1.1",
     "markdownlint-cli": "^0.28.1",
     "rimraf": "^3.0.2",
-    "symlink-dir": "^5.0.1"
+    "symlink-dir": "^5.0.1",
+    "nodemon": "^2.0.12"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
