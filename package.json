@@ -1,0 +1,46 @@
+{
+  "name": "dark-mode-bot",
+  "version": "1.0.0",
+  "description": "A custom discord bot created for the Dark Mode Developer's Community Discord server. ## Features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint ./ && markdownlint ./",
+    "pre-commit": "lint-staged",
+    "prepare": "husky install && rimraf .git/hooks && symlink-dir .husky .git/hooks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copleykj/Dark-Mode-Bot.git"
+  },
+  "author": "Dark Mode Developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/copleykj/Dark-Mode-Bot/issues"
+  },
+  "homepage": "https://github.com/copleykj/Dark-Mode-Bot#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.1.1",
+    "markdownlint-cli": "^0.28.1",
+    "nodemon": "^2.0.12",
+    "rimraf": "^3.0.2",
+    "symlink-dir": "^5.0.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.md": "markdownlint -f"
+  },
+  "dependencies": {
+    "discord.js": "^13.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
