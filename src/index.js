@@ -1,10 +1,12 @@
-// configure enviroment variables before anything else
-require('dotenv').config();
+import { registerGuildCommands } from './utils/commands.js';
+import { socketClient } from './discord-client/index.js';
+import './modules/index.js';
 
 const { client, fetch } = require('./discord-client');
 
 client.on('ready', () => {
   console.log('client connected and ready');
+  registerGuildCommands();
 });
 
 // subreddits to fetch memes from
