@@ -1,8 +1,7 @@
-// configure enviroment variables before anything else
-require('dotenv').config();
+import { registerGuildCommands } from './utils/commands.js';
+import { socketClient } from './discord-client/index.js';
 
-const client = require('./discord-client');
-
-client.on('ready', () => {
+socketClient.on('ready', async () => {
   console.log('client connected and ready');
+  registerGuildCommands();
 });
