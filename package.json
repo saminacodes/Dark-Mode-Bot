@@ -1,5 +1,6 @@
 {
   "name": "dark-mode-bot",
+  "type": "module",
   "version": "1.0.0",
   "description": "A custom discord bot created for the Dark Mode Developer's Community Discord server. ## Features",
   "main": "src/index.js",
@@ -40,6 +41,9 @@
     "*.md": "markdownlint -f"
   },
   "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.22.0",
     "discord.js": "^13.0.0",
     "dotenv": "^10.0.0"
   }
